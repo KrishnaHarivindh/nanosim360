@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+body { margin: 0; padding: 0; background: #f4fbfc; color: #12313a; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; overflow-x: hidden; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #eaf6f8; }
+::-webkit-scrollbar-thumb { background: #b7dce3; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #77bdca; }
+.nano-workspace { background: #f4fbfc; color: #17343d; }
+.nano-workspace [class*="bg-slate-950"], .nano-workspace [class*="bg-slate-900"], .nano-workspace [class*="bg-slate-800"] { background-color: #ffffff !important; }
+.nano-workspace [class*="bg-slate-950/"], .nano-workspace [class*="bg-slate-900/"] { background-color: #f0f9fb !important; }
+.nano-workspace [class*="border-slate-800"], .nano-workspace [class*="border-slate-700"], .nano-workspace [class*="border-slate-900"] { border-color: #d8edf1 !important; }
+.nano-workspace [class*="text-white"], .nano-workspace [class*="text-slate-100"], .nano-workspace [class*="text-slate-200"], .nano-workspace [class*="text-slate-300"] { color: #183943 !important; }
+.nano-workspace [class*="text-slate-400"], .nano-workspace [class*="text-slate-500"], .nano-workspace [class*="text-slate-600"] { color: #5d7880 !important; }
+.nano-workspace [class*="text-cyan-"], .nano-workspace [class*="text-emerald-"], .nano-workspace [class*="text-indigo-"], .nano-workspace [class*="text-amber-"], .nano-workspace [class*="text-rose-"] { color: #087f98 !important; }
+.nano-workspace [class*="bg-cyan-"], .nano-workspace [class*="bg-emerald-"], .nano-workspace [class*="bg-indigo-"], .nano-workspace [class*="bg-amber-"], .nano-workspace [class*="bg-rose-"] { background-color: #e2f4f7 !important; }
+.nano-workspace [class*="border-cyan-"], .nano-workspace [class*="border-emerald-"], .nano-workspace [class*="border-indigo-"], .nano-workspace [class*="border-amber-"], .nano-workspace [class*="border-rose-"] { border-color: #a8d8e0 !important; }
+.nano-workspace aside { background: #f8fcfd !important; border-color: #d8edf1 !important; }
+.nano-workspace aside button:hover, .nano-workspace main header { background: #f8fcfd !important; }
+.nano-workspace button { transition: background-color .16s, border-color .16s, color .16s; }
+.nano-workspace [class*="accent-amber"] { accent-color: #08a3bd !important; }

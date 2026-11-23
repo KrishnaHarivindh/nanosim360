@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+nanosim360.db
+*.joblib
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+.env
+.env.*
+!.env.example
